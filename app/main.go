@@ -14,7 +14,7 @@ type HealthResponse struct {
 func healthHandler(w http.ResponseWriter, r *http.Request) {
 	resp := HealthResponse{
 		Status:  "ok",
-		Service: "go-test-api",
+		Service: "go-test-api running",
 	}
 
 	w.Header().Set("Content-Type", "application/json")
