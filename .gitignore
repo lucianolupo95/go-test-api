@@ -1,0 +1,17 @@
+# ---- logs ----
+cron.log
+cron.log.*
+
+# ---- Go ----
+app/server
+*.exe
+*.out
+
+# ---- Docker ----
+*.log
+
+# ---- OS / Editor ----
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
