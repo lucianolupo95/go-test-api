@@ -19,6 +19,7 @@ Respuesta de ejemplo:
   "status": "ok",
   "service": "go-test-api"
 }
+```
 Arquitectura
 Lenguaje: Go
 
